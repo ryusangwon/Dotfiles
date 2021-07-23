@@ -1,9 +1,15 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export Android_HOME=$HOME/Android/Sdk
+
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$Android_HOME/tools
+
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$Android_HOME/platform-tools
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -114,11 +120,14 @@ source $ZSH/oh-my-zsh.sh
 #
 alias ta='tmux attach-session -t'
 alias tn='tmux new-session -s'
+alias tk='tmux kill-session -t'
+alias tl='tmux ls'
 
 alias vi='nvim'
 
 alias curl='noglob curl'
 
+alias javas='java -cp sootclasses-trunk-jar-with-dependencies.jar soot.Main -cp .:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar'
 
 if [ -x /usr/bin/dircolors ]; then
 	test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
