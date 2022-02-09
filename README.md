@@ -1,1 +1,3 @@
-# my_Vim_Plug
+### My Dotfiles
+
+.vimrc, .zshrc, .tmux.conf
