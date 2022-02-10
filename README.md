@@ -3,6 +3,7 @@
 ----
 ### ZSH
 <br>
+
 - Install **zsh**
 ```
 apt install zsh
