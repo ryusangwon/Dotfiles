@@ -61,6 +61,8 @@ plugins=(
 
 ### Vim
 
+<br>
+
 - Install **NeoVim**
 
 ```
