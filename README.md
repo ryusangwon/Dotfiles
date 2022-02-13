@@ -69,6 +69,7 @@ sudo apt install neovim
 ```
 
 <br>
+
 - Install **vim-plug**
 
 ```
