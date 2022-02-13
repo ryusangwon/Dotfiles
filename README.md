@@ -70,6 +70,7 @@ sudo apt install neovim
 
 <br>
 - Install **vim-plug**
+
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
@@ -88,6 +89,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 - Apply Vim plugins to NeoVim
     - Vim setting file: ~/.vimrc
     - NeoVim setting file: ~/.config/nvim/init.vim
+
 ```
 # Add 3 lines to NeoVim setting file to apply Vim setting to NeoVim setting
 set runtimepath+=~/.vim,~/.vim/after
