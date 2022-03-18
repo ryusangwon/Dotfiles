@@ -34,6 +34,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/the
 
 - powerlevel10k setting
 ```
+source ~/.zshrc
 p10k configure
 ```
 
