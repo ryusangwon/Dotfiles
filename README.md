@@ -90,8 +90,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 <br>
 
-- Apply Vim plugins to NeoVim
-    (Have to make directory and file)
+- Apply Vim plugins to NeoVim (Don't forget to make directory and file)
     - Vim setting file: ~/.vimrc
     - NeoVim setting file: ~/.config/nvim/init.vim
 
