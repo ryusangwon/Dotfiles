@@ -101,3 +101,9 @@ set runtimepath+=~/.vim,~/.vim/after
 set packpath+=~/.vim
 source ~/.vimrc
 ```
+
+<br>
+
+'''
+git remote set-url origin http://scuzzlebuzzle:토큰@github.com/깃
+'''
