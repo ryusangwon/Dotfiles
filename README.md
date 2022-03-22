@@ -102,7 +102,7 @@ set packpath+=~/.vim
 source ~/.vimrc
 ```
 
-<br>
+----
 
 - Push Git without Token
 
