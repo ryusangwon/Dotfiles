@@ -104,6 +104,8 @@ source ~/.vimrc
 
 <br>
 
+- Push Git without Token
+
 ```
-git remote set-url origin http://scuzzlebuzzle:토큰@github.com/깃
+git remote set-url origin http://scuzzlebuzzle:[TOKEN]@github.com/ryusangwon/directory.git
 ```
