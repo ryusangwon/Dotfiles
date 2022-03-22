@@ -90,13 +90,20 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 <br>
 
-- Apply Vim plugins to NeoVim
+- Apply Vim plugins to NeoVim (Don't forget to make directory and file)
     - Vim setting file: ~/.vimrc
     - NeoVim setting file: ~/.config/nvim/init.vim
 
 ```
 # Add 3 lines to NeoVim setting file to apply Vim setting to NeoVim setting
+vi ~/.config/nvim/init.vim
 set runtimepath+=~/.vim,~/.vim/after
 set packpath+=~/.vim
 source ~/.vimrc
+```
+
+<br>
+
+```
+git remote set-url origin http://scuzzlebuzzle:토큰@github.com/깃
 ```
