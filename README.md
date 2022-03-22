@@ -91,11 +91,13 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 <br>
 
 - Apply Vim plugins to NeoVim
+    # Have to make directory and file
     - Vim setting file: ~/.vimrc
     - NeoVim setting file: ~/.config/nvim/init.vim
 
 ```
 # Add 3 lines to NeoVim setting file to apply Vim setting to NeoVim setting
+vi ~/.config/nvim/init.vim
 set runtimepath+=~/.vim,~/.vim/after
 set packpath+=~/.vim
 source ~/.vimrc
