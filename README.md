@@ -104,6 +104,18 @@ source ~/.vimrc
 
 ----
 
+### tmux
+
+<br>
+
+- Apply tmux configuration
+
+```
+tmux source-file ~/.tmux.conf
+```
+
+----
+
 - Push Git without Token
 
 ```
