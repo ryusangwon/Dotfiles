@@ -115,8 +115,6 @@ alias tn='tmux new-session -s'
 alias tk='tmux kill-session -t'
 alias tl='tmux ls'
 
-alias vi='nvim'
-
 alias curl='noglob curl'
 
 # Example aliases
