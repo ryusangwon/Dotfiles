@@ -33,8 +33,6 @@ Plug 'godlygeek/tabular'
 
 Plug 'tommcdo/vim-lion'
 
-Plug 'blueyed/vim-diminactive'
-
 Plug 'bitc/vim-bad-whitespace'
 
 Plug 'wincent/ferret'
@@ -66,3 +64,5 @@ set showmatch
 set incsearch
 set showcmd
 set showmatch
+let g:NERDTreeWinPos = "right"
+set splitbelow
