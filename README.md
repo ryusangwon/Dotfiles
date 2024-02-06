@@ -104,6 +104,13 @@ set packpath+=~/.vim
 source ~/.vimrc
 ```
 
+<be>
+
+- Apply themes in Vim
+    - Add the theme you want in .vimrc (for me NLKNguyen/papercolor-theme)
+    - Install theme by PlugInstall
+    - Apply :source %
+
 ----
 
 ### tmux
