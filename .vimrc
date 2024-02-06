@@ -33,8 +33,6 @@ Plug 'godlygeek/tabular'
 
 Plug 'tommcdo/vim-lion'
 
-Plug 'bitc/vim-bad-whitespace'
-
 Plug 'wincent/ferret'
 
 Plug 'sjl/gundo.vim'
@@ -47,7 +45,14 @@ Plug 'vim-scripts/taglist.vim'
 
 Plug 'fholgado/minibufexpl.vim'
 
+" python grammar correction
+Plug 'nvie/vim-flake8'
+
+
+Plug 'NLKNguyen/papercolor-theme'
+
 call plug#end()
+
 set autoindent
 set cindent
 set smartindent
@@ -66,3 +71,10 @@ set showcmd
 set showmatch
 let g:NERDTreeWinPos = "right"
 set splitbelow
+let NERDTreeAutoRefresh=1
+
+set t_Co=256
+set background=light
+colorscheme PaperColor
+
+nmap tree :NERDTreeToggle<CR>
