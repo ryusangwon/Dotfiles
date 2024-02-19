@@ -48,6 +48,8 @@ Plug 'fholgado/minibufexpl.vim'
 " python grammar correction
 Plug 'nvie/vim-flake8'
 
+Plug 'nvim-tree/nvim-web-devicons' " optional
+Plug 'nvim-tree/nvim-tree.lua'
 
 Plug 'NLKNguyen/papercolor-theme'
 
@@ -77,4 +79,7 @@ set t_Co=256
 set background=light
 colorscheme PaperColor
 
-nmap tree :NERDTreeToggle<CR>
+nnoremap tree :NERDTreeToggle<cr>
+nnoremap <leader>b :NvimTreeToggle<cr>
+nnoremap <leader>f :NvimTreeFindFile<cr>
+nnoremap <leader>r :NvimTreeRefresh<cr>
