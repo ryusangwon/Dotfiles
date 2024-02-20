@@ -115,12 +115,24 @@ set packpath+=~/.vim
 source ~/.vimrc
 ```
 
+- For coc
+```
+curl -sL install-node.now.sh/lts | sudo $SHELL # install nodejs
+:CocInstall Pyright
+:CocCommand Pyright.install
+
+- For nvim-treesitter
+:TSInstall python
+
+```
+
 <be>
 
 - Apply themes in Vim
     - Add the theme you want in .vimrc (for me NLKNguyen/papercolor-theme)
     - Install theme by PlugInstall
     - Apply :source %
+
 
 ----
 
