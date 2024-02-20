@@ -71,6 +71,17 @@ plugins=(
 ```
 # After install Neovim, Add *alias vi='nvim'* to ~/.zshrc
 sudo apt install neovim
+# mac
+brew install neovim
+# without sudo
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage
+mkdir -p ~/bin
+mv nvim.appimage ~/bin/nvim
+# add path to .zshrc
+export PATH="~/bin:$PATH"
+source ~/.zshrc
 ```
 
 <br>
