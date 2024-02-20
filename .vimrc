@@ -83,3 +83,5 @@ nnoremap tree :NERDTreeToggle<cr>
 nnoremap <leader>b :NvimTreeToggle<cr>
 nnoremap <leader>f :NvimTreeFindFile<cr>
 nnoremap <leader>r :NvimTreeRefresh<cr>
+nnoremap <leader>` :split<cr>:term<cr>
+
