@@ -51,6 +51,10 @@ Plug 'nvie/vim-flake8'
 Plug 'nvim-tree/nvim-web-devicons' " optional
 Plug 'nvim-tree/nvim-tree.lua'
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
+
 Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
