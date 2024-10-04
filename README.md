@@ -146,6 +146,11 @@ curl -sL install-node.now.sh/lts | sudo $SHELL # install nodejs
 tmux source-file ~/.tmux.conf
 ```
 
+Save buffer
+```
+:capture-pane -S -N
+:save-buffer ~/filename
+```
 ----
 
 - Push Git without Token
