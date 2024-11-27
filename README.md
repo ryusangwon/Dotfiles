@@ -48,10 +48,8 @@ p10k configure
 
 - **zsh plugins**
     - zsh-autosuggestions (clone into ~/.oh-my-zsh/custom/plugins)
-    - zsh-syntax-highlighting
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions 
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
 
 
@@ -159,6 +157,16 @@ Save buffer
 :save-buffer ~/filename
 ```
 ----
+
+### conda
+
+<br>
+
+- Zsh update
+
+```
+export PATH="/home/ryusangwon/anaconda3/bin:$PATH"
+```
 
 - Push Git without Token
 
